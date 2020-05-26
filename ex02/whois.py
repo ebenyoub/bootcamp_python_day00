@@ -1,5 +1,8 @@
 import sys
 
+
+if len(sys.argv) == 1:
+    exit()
 if len(sys.argv) != 2 or sys.argv[1].isdigit() is False:
     print("ERROR")
 elif int(sys.argv[1]) == 0:
