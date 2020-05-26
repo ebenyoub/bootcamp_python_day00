@@ -1,17 +1,5 @@
-# 1. Output a list of installed packages.
-# 2. Output a list of installed packages and their versions.
-# 3. Show the package metadata of numpy.
-# 4. Search for PyPI packages whose name or summary contains “tesseract”.
-# 5. Freeze the packages and their current versions in a requirements.txt file you have to turn-in.
-
-# 1. Affichez une liste des packages installés.
-# 2. Affichez une liste des packages installés et leurs versions.
-# 3. Affichez les métadonnées du package de numpy.
-# 4. Recherchez les packages PyPI dont le nom ou le résumé contient «tesseract».
-# 5. Gelez les packages et leurs versions actuelles dans un fichier requirements.txt que vous devez rendre.
-
-1. pip list
-2. pip list -o --format columns
-3. pip show numpy --verbose
-4. pip search tesseract
-5. pip freeze > requirements.txt
+pip list
+pip list -o --format columns
+pip show numpy --verbose
+pip search tesseract
+pip freeze > requirements.txt
