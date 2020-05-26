@@ -1,0 +1,7 @@
+time = (3, 30, 2019, 9, 25)
+month = int(time[3])
+day = int(time[4])
+year = int(time[2])
+hour = int(time[0])
+min = int(time[1])
+print("{:02d}/{:02d}/{} {:02d}:{:02d}".format(month, day, year, hour, min))
